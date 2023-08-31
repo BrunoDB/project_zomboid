@@ -1,0 +1,4 @@
+### Removendo logs
+Logs/*
+server-console.txt
+backups/
