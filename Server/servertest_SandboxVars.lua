@@ -715,4 +715,15 @@ SandboxVars = {
         RecoveryJournalUsed = false,
         Craftable = true,
     },
+    BetterBatteries = {
+        -- Minimum=0.00 Maximum=1440.00 Default=60.00
+        CrankTime = 60.0,
+        StrengthBuff = true,
+        EndurancePenalty = true,
+        UnhappinessPenalty = true,
+        -- Minimum=0.00 Maximum=1.00 Default=1.00
+        MaximumCharge = 1.0,
+        -- Minimum=-1.00 Maximum=9999.00 Default=1.00
+        LifetimeMult = 1.0,
+    },
 }

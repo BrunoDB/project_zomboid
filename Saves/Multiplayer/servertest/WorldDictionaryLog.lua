@@ -2524,3 +2524,37 @@ table.insert(log, {
 	},
 	{ type = "reg_item", fulltype = "Base.SkillRecoveryJournal", registeryID = 2402, existsVanilla = false, isModded = true, modID = "SkillRecoveryJournal", obsolete = false, removed = false, isLoaded = true }
 };
+log = log or {};
+table.insert(log, {
+	-- -------------------------------------------------------
+	-- Time: 2023/09/01 11:47:25
+	{
+		type = "info",
+		timeStamp = "2023/09/01 11:47:25",
+		saveWorld = "servertest",
+		worldVersion = 195,
+		hasErrored = false,
+		itemMods = {
+			"pz-vanilla",
+			"EssentialCrafting",
+			"backpackattachments",
+			"RepairAnyClothes",
+			"BB_CommonSense",
+			"noirrsling",
+			"WaterDispenser",
+			"LightSwitchOverhaul",
+			"DynamicTraits",
+			"ImprovedBuildMenuFallen",
+			"tsarslib",
+			"ATA_Bus",
+			"SkillRecoveryJournal",
+			"autotsartrailers",
+			"BetterBatteries",
+		},
+	},
+	{ type = "reg_item", fulltype = "Autotsar.TrailerSecondTrunk", registeryID = 2403, existsVanilla = false, isModded = true, modID = "autotsartrailers", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.HandCrank", registeryID = 2404, existsVanilla = false, isModded = true, modID = "BetterBatteries", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.TrailerFirstTrunk", registeryID = 2405, existsVanilla = false, isModded = true, modID = "autotsartrailers", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.MakeshiftCrank", registeryID = 2406, existsVanilla = false, isModded = true, modID = "BetterBatteries", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TsarEarthing", registeryID = 2407, existsVanilla = false, isModded = true, modID = "autotsartrailers", obsolete = false, removed = false, isLoaded = true }
+};
