@@ -1,6 +1,6 @@
-#!/bin/bash
-# discord_url="https://discord.com/api/webhooks/1146649136981090354/RTON6BeIWTAC9kkq4LbbEBsiXORxUTSpYIvW576V0iQgi_9SGLsLNtTPTmP4mQ-NtVR0"
-discord_url="https://discord.com/api/webhooks/1146625951258652702/8Vqxtr6e1wCpC9nesqbth0vw9TFi0-1OLylDwqgGKkNLiH4tt-_kAYAGgwPwysY_V42Z"
+#!/bin/bash -x
+ discord_url="https://discord.com/api/webhooks/1146649136981090354/RTON6BeIWTAC9kkq4LbbEBsiXORxUTSpYIvW576V0iQgi_9SGLsLNtTPTmP4mQ-NtVR0"
+#discord_url="https://discord.com/api/webhooks/1146625951258652702/8Vqxtr6e1wCpC9nesqbth0vw9TFi0-1OLylDwqgGKkNLiH4tt-_kAYAGgwPwysY_V42Z"
 status=$(ps aux | grep -v grep | grep -i -c "ProjectZomboid64")
 if [ $status -eq 1 ]; then
   ip=$(curl -s checkip.dyndns.org | sed 's/.*IP Address: \([0-9\.]*\).*/\1/g')
