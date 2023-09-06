@@ -2558,3 +2558,47 @@ table.insert(log, {
 	{ type = "reg_item", fulltype = "Base.MakeshiftCrank", registeryID = 2406, existsVanilla = false, isModded = true, modID = "BetterBatteries", obsolete = false, removed = false, isLoaded = true }
 	{ type = "reg_item", fulltype = "Base.TsarEarthing", registeryID = 2407, existsVanilla = false, isModded = true, modID = "autotsartrailers", obsolete = false, removed = false, isLoaded = true }
 };
+log = log or {};
+table.insert(log, {
+	-- -------------------------------------------------------
+	-- Time: 2023/09/04 14:55:44
+	{
+		type = "info",
+		timeStamp = "2023/09/04 14:55:44",
+		saveWorld = "servertest",
+		worldVersion = 195,
+		hasErrored = false,
+		itemMods = {
+			"pz-vanilla",
+			"EssentialCrafting",
+			"backpackattachments",
+			"RepairAnyClothes",
+			"BB_CommonSense",
+			"noirrsling",
+			"WaterDispenser",
+			"LightSwitchOverhaul",
+			"DynamicTraits",
+			"ImprovedBuildMenuFallen",
+			"tsarslib",
+			"ATA_Bus",
+			"SkillRecoveryJournal",
+			"autotsartrailers",
+			"BetterBatteries",
+			"waterPipes",
+			"FuelAPI",
+			"AutomaticEconomyTrader",
+		},
+	},
+	{ type = "reg_item", fulltype = "waterPipes.WaterPipe", registeryID = 2408, existsVanilla = false, isModded = true, modID = "waterPipes", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "FuelAPI.LargePetrolCanFull", registeryID = 2409, existsVanilla = false, isModded = true, modID = "FuelAPI", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "FuelAPI.LargePetrolCan", registeryID = 2410, existsVanilla = false, isModded = true, modID = "FuelAPI", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AutomaticEconomyTrader.FoodTrader", registeryID = 2411, existsVanilla = false, isModded = true, modID = "AutomaticEconomyTrader", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "FuelAPI.LargePetrolCanWater", registeryID = 2412, existsVanilla = false, isModded = true, modID = "FuelAPI", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AutomaticEconomyTrader.WeaponTrader", registeryID = 2413, existsVanilla = false, isModded = true, modID = "AutomaticEconomyTrader", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AutomaticEconomyTrader.MoneyDispencer", registeryID = 2414, existsVanilla = false, isModded = true, modID = "AutomaticEconomyTrader", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AutomaticEconomyTrader.RoupaTrader", registeryID = 2415, existsVanilla = false, isModded = true, modID = "AutomaticEconomyTrader", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AutomaticEconomyTrader.ToolTrader", registeryID = 2416, existsVanilla = false, isModded = true, modID = "AutomaticEconomyTrader", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "waterPipes.WaterPipe2", registeryID = 2417, existsVanilla = false, isModded = true, modID = "waterPipes", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AutomaticEconomyTrader.Centavo", registeryID = 2418, existsVanilla = false, isModded = true, modID = "AutomaticEconomyTrader", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AutomaticEconomyTrader.VehicleTrader", registeryID = 2419, existsVanilla = false, isModded = true, modID = "AutomaticEconomyTrader", obsolete = false, removed = false, isLoaded = true }
+};

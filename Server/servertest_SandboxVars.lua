@@ -303,7 +303,7 @@ SandboxVars = {
     -- How often zombie attracting metagame events like distant gunshots will occur. Default=Sometimes
     -- 1 = Never
     -- 2 = Sometimes
-    MetaEvent = 2,
+    MetaEvent = 3,
     -- Governs night-time metagame events during the player's sleep. Default=Never
     -- 1 = Never
     -- 2 = Sometimes
@@ -693,8 +693,8 @@ SandboxVars = {
     },
     RVInterior = {
         -- Minimum=0 Maximum=100 Default=20
-        SafeZombieDistance = 20,
-        NotWhenChased = true,
+        SafeZombieDistance = 0,
+        NotWhenChased = false,
     },
     SkillRecoveryJournal = {
         -- Minimum=1 Maximum=100 Default=100
@@ -725,5 +725,82 @@ SandboxVars = {
         MaximumCharge = 1.0,
         -- Minimum=-1.00 Maximum=9999.00 Default=1.00
         LifetimeMult = 1.0,
+    },
+    WaterPipes = {
+        SmartPipes = true,
+        -- Minimum=3 Maximum=100 Default=20
+        SmartPipesFillMax = 20,
+        SmartPipesUpdateNotWatered = false,
+    },
+    LogExtender = {
+        PlayerConnected = true,
+        PlayerLevelup = true,
+        PlayerTick = true,
+        VehicleEnter = true,
+        VehicleExit = true,
+        VehicleAttach = true,
+        VehicleDetach = true,
+        TimedActions = true,
+        TakeSafeHouse = true,
+        ChangeSafeHouseOwner = true,
+        ReleaseSafeHouse = true,
+        RemovePlayerFromSafehouse = true,
+        SendSafeHouseInvite = true,
+        JoinToSafehouse = true,
+        HitPVP = true,
+        AdminManageItem = true,
+        AdminTeleport = true,
+        AlternativeMap = true,
+    },
+    ServerTweaker = {
+        SaveClientOptions = true,
+        SaveAdminPower = false,
+        AddClientCache = true,
+        AllowAdminToolsForGM = true,
+        DisallowSpawnItemsForObservers = false,
+        DisableAimOutline = false,
+        DisableTradeWithPlayers = false,
+        ProtectVehicleInSafehouse = true,
+        ScreenBlackoutOnDeath = false,
+        HighlightSafehouse = true,
+        TweakFirearmsSoundRadius = false,
+        SetGeneralChatStreamAsDefault = false,
+        DisplayCharacterCoordinates = true,
+        AddSatelliteViewToMap = true,
+        DisplaySafehouseAreaSize = true,
+        CustomSafezoneAdminTweaks = true,
+        TweakOverlayText = true,
+        PinOverlayServerInfoText = true,
+        HideServerOptionsFromPlayers = false,
+        HideTicketsFromPlayers = false,
+        AddSafehouseToSpawnLocations = true,
+        AdminsFreeAddToSafehouse = true,
+        TakeSafehouseLimitations = true,
+        -- Minimum=0 Maximum=10000 Default=0
+        SafehouseAreaLimit = 0,
+        CheckSafehouseIntersections = true,
+        -- Minimum=0 Maximum=100 Default=0
+        SafehouseDeadZone = 0,
+    },
+    UdderlySafeLogin = {
+        -- Minimum=1.00 Maximum=120.00 Default=20.00
+        SafeTime = 20.0,
+        -- Minimum=0.00 Maximum=1.00 Default=0.50
+        MovementMultiplier = 0.5,
+        UseInvisbiility = false,
+    },
+    FuelAPI = {
+        -- Minimum=100.00 Maximum=5000.00 Default=400.00
+        BarrelMaxCapacity = 400.0,
+        -- Minimum=0.00 Maximum=1.00 Default=0.50
+        BarrelRandomQuantityPercent = 0.5,
+        BarrelCanPickupFull = false,
+    },
+    AutoDrop = {
+        LootMode = 1,
+        ContextualAddRemove = true,
+        ContextualBagFilter = true,
+        ContextualPriority = true,
+        ContextualInhibiter = true,
     },
 }
